@@ -1,36 +1,106 @@
+[13.50] Jonas Sonn Jørgensen
 {
-    "name": "Company Theme",
-    "description": "This theme includes element styles based on the company's official colors.",
-    "elements": [
-        {
-            "tag": "Person",
-            "stroke": "#1F1F1F",
-            "color": "#EAC785",
-            "fontColor": "#FDFDFD"
-        },
-        {
-            "tag": "Software System",
-            "stroke": "#1F1F1F",
-            "color": "#2E7FA1",
-            "fontColor": "#FDFDFD"
-        },
-        {
-            "tag": "Container",
-            "stroke": "#1F1F1F",
-            "color": "#25837E",
-            "fontColor": "#FDFDFD"
-        },
-        {
-            "tag": "Component",
-            "stroke": "#1F1F1F",
-            "color": "#25837E",
-            "fontColor": "#FDFDFD"
-        },
-        {
-            "tag": "Relationship",
-            "stroke": "#1F1F1F",
-            "fontColor": "#FDFDFD"
+
+    "name": "Laerdal Theme",
+
+    "description": "Theme based on Laerdal's official colors.",
+
+    "metadata": {
+
+        "defaultFont": {
+
+            "name": "Arial",
+
+            "url": "https://fonts.googleapis.com/css2?family=Arial"
+
         }
-    ],
-    "background": "#949494"
+
+    },
+
+    "elements": {
+
+        "default": {
+
+            "background": "#949494",
+
+            "color": "#1F1F1F",
+
+            "font": {
+
+                "size": 24,
+
+                "color": "#FDFDFD"
+
+            }
+
+        },
+
+        "person": {
+
+            "background": "#EAC785",
+
+            "color": "#1F1F1F",
+
+            "font": {
+
+                "size": 24,
+
+                "color": "#FDFDFD"
+
+            }
+
+        },
+
+        "softwareSystem": {
+
+            "background": "#2E7FA1",
+
+            "color": "#1F1F1F",
+
+            "font": {
+
+                "size": 24,
+
+                "color": "#FDFDFD"
+
+            }
+
+        },
+
+        "component": {
+
+            "background": "#25837E",
+
+            "color": "#1F1F1F",
+
+            "font": {
+
+                "size": 24,
+
+                "color": "#FDFDFD"
+
+            }
+
+        }
+
+    },
+
+    "relationships": {
+
+        "default": {
+
+            "color": "#1F1F1F",
+
+            "font": {
+
+                "size": 16,
+
+                "color": "#FDFDFD"
+
+            }
+
+        }
+
+    }
+
 }
