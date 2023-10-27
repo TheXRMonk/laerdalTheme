@@ -20,6 +20,11 @@
       "background" : "#25837E",
       "stroke" : "#1F1F1F",
       "color" : "#FDFDFD"
+    },
+    {
+      "tag" : "Relationship",
+      "stroke" : "#1F1F1F",
+      "color" : "#1F1F1F"
     }
   ]
 }
