@@ -1,25 +1,51 @@
 {
-  "name": "Laerdal Theme",
-  "description": "Theme based on Laerdal's official colors.",
-  "elements": [
-    {
-      "tag": "Person",
-      "shape": "Person",
-      "background": "#EAC785",
-      "stroke": "#1F1F1F",
-      "color": "#FDFDFD"
-    },
-    {
-      "tag": "Software System",
-      "background": "#2E7FA1",
-      "stroke": "#1F1F1F",
-      "color": "#FDFDFD"
-    },
-    {
-      "tag": "Component",
-      "background": "#25837E",
-      "stroke": "#1F1F1F",
-      "color": "#FDFDFD"
-    }
-  ]
-}
+    "name" : "Company Theme",
+    "description" : "This theme includes element styles based on the company's official colors.",
+    "elements" : [
+      {
+        "tag" : "Person",
+        "stroke" : "#1F1F1F",
+        "color" : "#EAC785"
+      },
+      {
+        "tag" : "Software System",
+        "stroke" : "#1F1F1F",
+        "color" : "#2E7FA1"
+      },
+      {
+        "tag" : "Container",
+        "stroke" : "#1F1F1F",
+        "color" : "#25837E"
+      },
+      {
+        "tag" : "Component",
+        "stroke" : "#1F1F1F",
+        "color" : "#949494"
+      },
+      {
+        "tag" : "Relationship",
+        "stroke" : "#1F1F1F",
+        "color" : "#1F1F1F"
+      },
+      {
+        "tag" : "Person->Software System",
+        "stroke" : "#EAC785",
+        "color" : "#EAC785"
+      },
+      {
+        "tag" : "Software System->Software System",
+        "stroke" : "#EAC785",
+        "color" : "#EAC785"
+      },
+      {
+        "tag" : "Container->Container",
+        "stroke" : "#EAC785",
+        "color" : "#EAC785"
+      },
+      {
+        "tag" : "Component->Component",
+        "stroke" : "#EAC785",
+        "color" : "#EAC785"
+      }
+    ]
+  }
